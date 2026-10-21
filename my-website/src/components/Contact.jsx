@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 export default function Contact(){
     return(
         <motion.div
-        initial={{y:-1000}}
-        animate={{y:0}}
+        initial={{x:-100}}
+        animate={{x:0}}
         transition={{
             duration: '2',
             delay: '0.5'
